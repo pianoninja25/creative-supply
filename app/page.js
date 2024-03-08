@@ -2,6 +2,10 @@ import Image from "next/image";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Capabilities from "./components/capabilities";
+import Clients from "./components/clients";
+import Speciality from "./components/speciality";
+import RecentWorks from "./components/recent-works";
+import ContactUs from "./components/contact-us";
 
 export default function Home() {
   return (
@@ -29,7 +33,7 @@ export default function Home() {
       </section>
 
 
-      <div className="min-h-screen bg-contain mx-4" style={{backgroundImage: `url('/pattern.svg')`}}>
+      <div className="min-h-screen bg-contain mx-4 pb-10" style={{backgroundImage: `url('/pattern.svg')`}}>
         <section className="">
           <div className="flex gap-2 py-4 sm:py-8">
             <div className="w-full pl-2 sm:pl-6">
@@ -47,6 +51,11 @@ export default function Home() {
 
         <Hero />
         <Capabilities />
+        <Clients />
+        <Speciality />
+        <RecentWorks />
+        <ContactUs />
+
       </div>
     </main>
   );
