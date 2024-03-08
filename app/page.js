@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Header from "./components/header";
 import Hero from "./components/hero";
+import Capabilities from "./components/capabilities";
 
 export default function Home() {
   return (
     <main className="">
       
       <section className="flex h-[28rem] sm:h-screen landscape:h-[50rem]">
-        <div className="relative h-full w-full bg-cover bg-no-repeat md:bg-repeat-x text-[2em] " style={{backgroundImage:`url(/bg1.jpg)`}}>
+        <div className="relative h-full w-full bg-cover bg-no-repeat md:bg-repeat-x text-[2em]" style={{backgroundImage:`url(/bg1.jpg)`}}>
           <div className="absolute left-8 top-44">
             <h1 className="font-bold drop-shadow-lg text-[14vw] -tracking-morewidest leading-none text-white">CREATIVE</h1>
             <div className="flex items-end">
@@ -22,6 +23,8 @@ export default function Home() {
           </div>
         </div>
         <div className="h-full bg-cover bg-[center_left_8%]" style={{backgroundImage:`url(/bg2.jpg)`}}></div>
+        
+
 
       </section>
 
@@ -43,6 +46,7 @@ export default function Home() {
         </section>
 
         <Hero />
+        <Capabilities />
       </div>
     </main>
   );

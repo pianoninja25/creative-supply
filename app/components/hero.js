@@ -11,7 +11,7 @@ const Hero = () => {
       <Image src="/hero3.png" alt="hero3" width={300} height={300} className="w-[25vw] h-[45vw]" loading="lazy" />
 
 
-      <div className='absolute flex gap-[1vw] top-[2vw] left-[4vw] h-[4.5vw]'>
+      <div className='absolute flex gap-[1vw] inset-[2vw] h-[4.5vw]'>
         <img src="/shape/more interesting.svg" alt="1" className='animate-pulse' />
         <img src="/shape/arrow-round-down.svg" alt="2" className='animate-spin-slow' />
       </div>
@@ -36,17 +36,22 @@ const Hero = () => {
         <img src="/shape/shared-876k.svg" alt="10" className='h-[7vw] mt-[2vw] animate-pulse' />
       </div>
 
-      <div className='absolute w-full flex justify-around gap-[8vw] pl-[2vw] -bottom-[8vw]'>
-        <img src="/shape/make it organic.svg" alt="11" className='h-[4vw] animate-bounce' />
-        <img src="/shape/not-ads.svg" alt="12" className='h-[4vw] mt-[4vw] animate-bounce' />
-        <img src="/shape/brand-statification.svg" alt="13" className='h-[8vw] -mt-[4vw] animate-pulse' />
+      <div className='absolute left-[1vw] -bottom-[2vw]'>
+        <img src="/shape/arrow-round-up.svg" alt="11" className='h-[6vw] animate-pulse' />
+        <img src="/shape/make it organic.svg" alt="11" className='h-[5vw] m-[2vw] animate-bounce' />
       </div>
-      <div className='absolute w-full flex justify-between  gap-[8vw] px-[2vw] -bottom-[2vw]'>
-        <img src="/shape/arrow-round-up.svg" alt="11" className='h-[6vw] animate-bounce' />
-        <img src="/shape/arrow-circle-up.svg" alt="12" className='h-[6vw] mt-[2vw] animate-bounce' />
-        <FaRegSmile color='#FFA800' size={18} className='animate-spin-slow' />
+      
+      <div className='absolute left-[40vw] -bottom-[8vw]'>
+        <img src="/shape/arrow-circle-up.svg" alt="11" className='h-[6vw] m-[2vw] mt-0 animate-pulse' />
+        <img src="/shape/not-ads.svg" alt="11" className='h-[5vw] animate-bounce' />
       </div>
-      <img src="/shape/half-circle.png" alt="11" className='absolute right-0 -bottom-[20vw] h-[20vw] opacity-80' />
+      
+      <div className='absolute flex gap-[2vw] right-[2vw] -bottom-[2vw]'>
+        <img src="/shape/brand-statification.svg" alt="13" className='h-[9vw] mt-[2vw] animate-pulse' />
+        <FaRegSmile color='#FFA800' size={20} className='animate-spin-slow' />
+      </div>
+
+      <img src="/shape/half-circle.png" alt="11" className='absolute right-0 -bottom-[25vw] h-[20vw] opacity-80 -z-10' />
     </section>
   )
 }
