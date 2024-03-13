@@ -47,11 +47,11 @@ const Hero = () => {
       </div>
       
       <div className='absolute flex gap-[2vw] right-[2vw] -bottom-[2vw]'>
-        <img src="/shape/brand-statification.svg" alt="13" className='h-[9vw] mt-[2vw] animate-pulse' />
+        <img src="/shape/brand statification.svg" alt="13" className='h-[9vw] mt-[2vw] animate-pulse' />
         <FaRegSmile color='#FFA800' size={20} className='animate-spin-slow' />
       </div>
 
-      <img src="/shape/half-circle.png" alt="11" className='absolute right-0 -bottom-[25vw] h-[20vw] opacity-80 -z-10' />
+      {/* <img src="/shape/half-circle.png" alt="11" className='absolute right-0 -bottom-[25vw] h-[20vw] opacity-80 -z-10' /> */}
     </section>
   )
 }

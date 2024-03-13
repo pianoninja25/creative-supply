@@ -13,6 +13,12 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <div className="relative">
+          <img src="/shape/half-circle.png" alt="11" className='absolute right-0 bottom-[300vw] h-[24vw] opacity-80 -z-10' />
+          <img src="/shape/half-circle.png" alt="11" className='absolute right-0 bottom-[20vw] h-[24vw] opacity-80 -z-10' />
+          <img src="/shape/half-circle.png" alt="11" className='absolute -left-[4vw] bottom-[140vw] h-[24vw] opacity-50 z-10 rotate-180' />
+          <img src="/pic/phone.png" alt="11" className='absolute right-0 bottom-[90vw] h-[34vw] z-10 animate-bounce1' />
+        </div>
         <Footer />
       </body>
     </html>
