@@ -23,7 +23,7 @@ const AnotherService = () => {
         {/* <h1 className="px-4 pt-2 pb-1 font-montserrat font-bold text-md text-center">Another Services</h1> */}
         <div className="flex justify-center flex-wrap px-4 py-2 gap-3">
           {boxList.map((a, idx) => (
-            <div key={idx} className="w-[48%] h-[36vw] rounded-[2rem] shadow-lg bg-cover" style={{backgroundImage:`url(/services/${a.bg})`}}>
+            <div key={idx} className="w-[45%] h-[36vw] rounded-[2rem] shadow-lg bg-cover" style={{backgroundImage:`url(/services/${a.bg})`}}>
               <div className={`flex justify-center items-center w-full h-full rounded-[2rem] transition-all ease-in-out duration-300
                 ${selected == idx ? 'bg-black/10' : 'bg-black/70'} hover:cursor-pointer hover:bg-black/10`}
                 onClick={() => setSelected(idx)}
