@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'snowfun';
+  src: url('/fonts/Snowfun-Regular.ttf') format('opentype');
+  font-display: swap;
+}
+
+
+h1 {
+  @apply font-montserrat;
+}
+
+.slick-prev {
+  left: 1.5% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 5% !important;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 2rem !important;
+}
+
+
+
+/* 
+.topbar {
+  @apply fixed z-10 top-0 bg-light/10 shadow-lg rounded-b-sm sm:shadow-none sm:bg-transparent;
+} */
+.topbar {
+  @apply z-10 top-0 sm:bg-transparent;
+}
+
+/* .topbar::before {
+  @apply absolute top-0 h-full w-full bg-light/20 shadow-lg backdrop-blur-sm rounded-b-sm sm:shadow-none sm:backdrop-blur-none sm:bg-transparent;
+  content: '';
+} */
+.topbar::before {
+  @apply absolute top-0 h-full w-full sm:bg-transparent;
+  content: '';
+}
+
+.hamburger-line {
+  @apply w-8 h-1 my-1.5 block bg-white rounded-full;
+}
+/* .hamburger-line {
+  @apply w-6 h-0.5 my-1.5 block bg-dark;
+} */
+
+
+
+
+
+
+
+
+
