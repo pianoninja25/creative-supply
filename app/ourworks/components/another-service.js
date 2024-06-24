@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation"
 
 const AnotherService = () => {
   const pathname = usePathname() 
-  const selectPath = pathname.split('/ourworks/')[1].split('_')[0]
+  const selectPath = pathname?.split('/ourworks/')[1]?.split('_')[0]
 
 
-  const [selected, setSelected] = useState(selectPath)
+  const [selected, setSelected] = useState(selectPath ?? 5)
   
   const boxList = [
     { title: 'Short Video', bg: '5.svg'},
