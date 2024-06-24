@@ -1,4 +1,4 @@
-import AnotherService from "./components/another-service"
+// import AnotherService from "./components/another-service"
 import Instagram from "./components/instagram"
 import Youtube from "./components/youtube"
 
