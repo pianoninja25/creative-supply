@@ -6,9 +6,9 @@ const ChooseProduct = () => {
       <h1 className="font-bold text-4xl p-[2vw] py-12 text-center ">CHOOSE <br />THE PRODUCT</h1>
 
       <div className="grid place-items-center w-full px-[1vw] rounded-xl bg-stone-100">
-        <div className="relative -top-4 w-[22rem] py-[4vw] px-4 shadow-md rounded-full bg-orange">
+        <div className="relative -top-4 w-[85vw] py-[4vw] px-2 text-sm shadow-md rounded-full bg-orange">
           <h1 className="indent-4 font-semibold text-white">KOL Campaign Specialized</h1>
-          <img src="/home/pic/avatar.png" alt="avatar" className="absolute bottom-0 -right-4 w-[20vw]"/>
+          <img src="/home/pic/avatar.png" alt="avatar" className="absolute bottom-0 -right-2 w-[22vw]"/>
         </div>
         
         <div className="relative -top-12 p-[4vw]">

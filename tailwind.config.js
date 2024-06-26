@@ -34,6 +34,9 @@ module.exports = {
         'bounce2': 'bounce 2s infinite',
         'spin-slow': 'spin 3s linear infinite', 
       },
+      boxShadow: {
+        'right-only': '10px 0px 15px -3px rgba(0, 0, 0, 0.1), 10px 0px 6px -2px rgba(0, 0, 0, 0.05)',
+      }
       
     },
   },

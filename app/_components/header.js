@@ -48,7 +48,7 @@ const Header = () => {
       <div ref={menuRef}>
         {/* HAMBURGER */}
         <button onClick={() => setOpen(!open)} 
-        className={`absolute top-0 m-6 right-2 z-[51] sm:hidden ${open ? 'xs:scale-50' : 'xs:scale-100'}`}
+        className={`absolute top-0 m-6 right-2 z-[51] sm:hidden ${open ? 'scale-50' : 'scale-100'}`}
         >
           <span className={`hamburger-line transition duration-300 ease-in-out origin-top-left ${open ? 'rotate-[40deg]' : ''}`}></span>
           <span className={`hamburger-line transition duration-300 ease-in-out ${open ? 'scale-0' : ''}`}></span>
@@ -66,7 +66,7 @@ const Header = () => {
           ${open ? 'flex' : 'hidden sm:flex'}`}
         >
           {[
-            ['Homesss', '/'],
+            ['Home', '/'],
             ['Services', '/services'],
             ['Our Works', '/ourworks'],
             ['About', '/about'],
