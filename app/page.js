@@ -1,18 +1,18 @@
 import Image from 'next/image'
 import React from 'react'
-import Hero from './home3/components/hero'
-import Title from './home3/components/title'
-import Capabilities from './home3/components/capabilities'
-import Clients from './home3/components/clients'
-import Speciality from './home3/components/speciality'
-import RecentWorks from './home3/components/recent-works'
+import Hero from './home/components/hero'
+import Title from './home/components/title'
+import Capabilities from './home/components/capabilities'
+import Clients from './home/components/clients'
+import Speciality from './home/components/speciality'
+import RecentWorks from './home/components/recent-works'
 import ContactUs from './_components/contact-us'
 
 const Home = () => {
   return (
     <section className="landscape:h-[50rem]">
-      <div className="w-full h-[60vh] sm:h-screen bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(/home/banner/3.jpg)` }}>
-        <div className="relative flex flex-col justify-center gap-4 w-full h-full pl-14 pt-20 bg-black/40">
+      <div className="w-full h-[60vh] sm:h-screen bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(/home/banner/banner.jpg)` }}>
+        <div className="relative flex flex-col justify-center gap-4 w-full h-full pl-14 pt-20 bg-black/60">
           <h1 className="font-bold text-[14vw] -tracking-morewidest leading-[12vw] text-stone-100">CREATIVE SUPPLY</h1>
           <p className="font-snowfun text-[10vw] leading-[6vw] text-orange animate-bounce2">we create <br /> your needs</p>
           <div className="absolute bottom-8 right-10 flex items-center gap-1 p-2 hover:cursor-pointer">

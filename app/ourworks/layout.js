@@ -1,4 +1,5 @@
 // import AnotherService from "./components/another-service"
+import RecentWorks from "../home/components/recent-works"
 import Instagram from "./components/instagram"
 import Youtube from "./components/youtube"
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
       {children}
 
       {/* <AnotherService /> */}
+      <RecentWorks />
 
       <Youtube />
       <Instagram />

@@ -29,13 +29,13 @@ export default function Home() {
             <h1 className="font-bold text-3xl xs:text-4xl p-[2vw] pt-12 pb-4 text-center">MET WITH <br />OUR SPECIALITY</h1>
             <div className="flex flex-col items-center gap-[2vw]">
               {/* Image */}
-              <img src="/services/hero.jpg" alt="1" className="w-[55vw] rounded-3xl shadow-lg"/>
+              <img src="/services/hero.jpg" alt="1" className="w-[52vw] rounded-[2rem] shadow-right-only"/>
               
               
               
               <div className="w-full space-y-[2vw]">  
                 {/* Description */}
-                <p className="text-lg px-8 py-2">Ini adalah salah satu konten kami dengan performa yang menakjubkan! Sekarang waktunya konten kamu naik dan memukau jutaan mata penonton!</p>
+                <p className="font-montserrat px-8 py-2 text-stone-500">Ini adalah salah satu konten kami dengan performa yang menakjubkan! Sekarang waktunya konten kamu naik dan memukau jutaan mata penonton!</p>
                 
                 {/* Numbers */}
                 <div className="flex flex-col items-center gap-[4vw]">

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChooseProduct = () => {
   return (
-    <section className="pt-[8vw]">
+    <section className="pt-[2vw]">
       <h1 className="font-bold text-4xl p-[2vw] py-12 text-center ">CHOOSE <br />THE PRODUCT</h1>
 
       <div className="grid place-items-center w-full px-[1vw] rounded-xl bg-stone-100">

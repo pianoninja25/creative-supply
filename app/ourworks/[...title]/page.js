@@ -5,7 +5,7 @@ import AnotherService from '../components/another-service'
 const page = () => {
 
   return (
-    <div>
+    <div className='pt-10'>
       <AnotherService />
     </div>
   )

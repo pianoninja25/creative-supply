@@ -2,6 +2,7 @@ import React from 'react'
 import Instagram from '../ourworks/components/instagram'
 import ProductionTeam from './components/production-team'
 import CLevel from './components/clevel'
+import Contact from './components/contact'
 
 const About = () => {
   return (
@@ -35,12 +36,44 @@ const About = () => {
           <div>
             <h1 className="font-snowfun text-6xl p-[2vw] py-10">Met With <br /> Our Content Creator</h1>
             <div className="flex flex-col items-center gap-[2vw]">
-
-            <div className="flex justify-center items-center gap-[2vw] p-8">
-              <div className="relative h-60 w-60 shadow-right-only rounded-[2.4rem] bg-white">
-                <img src="/services/hero2.png" alt="1" className="absolute bottom-0 w-[60vw]"/>
+              <div className="flex justify-center items-center gap-[2vw] p-8">
+                <div className="relative h-60 w-60 shadow-right-only rounded-[2.4rem] bg-white">
+                  <img src="/services/hero2.png" alt="1" className="absolute bottom-0 w-[60vw]"/>
+                </div>
               </div>
-            </div>
+
+
+              <div className='w-full rounded-[2rem] pb-20 shadow-center-only bg-white'>
+                <h1 className="font-snowfun text-center text-5xl p-[2vw] py-10">Our Management</h1>
+                <div className='flex flex-wrap justify-center gap-4 space-y-16 p-2'>
+                  <div className="relative h-40 w-40 shadow-right-only rounded-2xl ml-6 bg-orange">
+                    <h3 className='font-snowfun text-5xl text-center text-white absolute z-50 top-4 right-8'>CEO</h3>
+                    <img src="/services/hero2.png" alt="1" className="absolute -bottom-1 right-7 w-[60vw] grayscale brightness-75 contrast-150 z-10"/>
+                    <p className='absolute -bottom-8 -left-4 font-montserrat text-lg'>Gilang Ramadhan</p>
+                  </div>
+                  <div className="relative h-32 w-32 shadow-right-only rounded-2xl ml-2 bg-orange">
+                    <h3 className='font-snowfun text-5xl text-center text-white absolute z-50 top-4 right-1'>CFO</h3>
+                    <img src="/services/hero2.png" alt="1" className="absolute -bottom-1 right-2 w-[60vw] grayscale brightness-75 contrast-150 z-10"/>
+                    <p className='absolute -bottom-12 right-2 text-right font-montserrat'>Aditya <br /> Nazikra</p>
+                  </div>
+                  <div className="relative h-32 w-32 shadow-right-only rounded-2xl ml-2 bg-orange">
+                    <h3 className='font-snowfun text-5xl text-center text-white absolute z-50 top-4 right-1'>COO</h3>
+                    <img src="/services/hero2.png" alt="1" className="absolute -bottom-1 right-2 w-[60vw] grayscale brightness-75 contrast-150 z-10"/>
+                    <p className='absolute -bottom-12 right-2 text-right font-montserrat'>Fahreza <br /> Praditya</p>
+                  </div>
+                  <div className="relative h-32 w-32 shadow-right-only rounded-2xl ml-2 bg-orange">
+                    <h3 className='font-snowfun text-5xl text-center text-white absolute z-50 top-4 right-1'>CMO</h3>
+                    <img src="/services/hero2.png" alt="1" className="absolute -bottom-1 right-2 w-[60vw] grayscale brightness-75 contrast-150 z-10"/>
+                    <p className='absolute -bottom-12 right-2 text-right font-montserrat'>Fatchur <br /> Rahman</p>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div>
+
+              </div>
             
               {/* Image */}
               {/* <img src="/services/hero.jpg" alt="1" className="w-[55vw] rounded-3xl shadow-lg"/> */}
@@ -58,7 +91,8 @@ const About = () => {
 
 
       {/* <CLevel /> */}
-      {/* <ProductionTeam /> */}
+      <ProductionTeam />
+      <Contact />
       <Instagram />
     </>
 

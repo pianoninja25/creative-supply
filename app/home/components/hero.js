@@ -20,8 +20,8 @@ function Hero() {
     <div className="-top-36 relative">
       <div className="mb-32 mx-8 h-[18rem] rounded-2xl text-transparent" style={{backgroundImage: `linear-gradient(to bottom, #FFCC27 30%, white 90%, transparent 100%)`}}>
         <div className="flex items-center py-16">
-          <Image src="/home/hero/1.svg" alt="hero1" width={300} height={300} className="absolute -left-[5%] rounded-xl w-[60vw] mx-auto" loading="lazy" unoptimized />
-          <Image src="/home/hero/3.svg" alt="hero1" width={300} height={300} className="z-10 rounded-xl w-[65vw] mx-auto" loading="lazy" unoptimized />
+          <Image src="/home/hero/1.svg" alt="hero1" width={300} height={300} className="absolute -left-[6%] rounded-xl w-[55vw] mx-auto" loading="lazy" unoptimized />
+          <Image src="/home/hero/3.svg" alt="hero1" width={300} height={300} className="z-10 rounded-xl w-[64vw] mx-auto" loading="lazy" unoptimized />
 
         </div>
         

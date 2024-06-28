@@ -35,7 +35,8 @@ module.exports = {
         'spin-slow': 'spin 3s linear infinite', 
       },
       boxShadow: {
-        'right-only': '10px 0px 15px -3px rgba(0, 0, 0, 0.1), 10px 0px 6px -2px rgba(0, 0, 0, 0.05)',
+        'right-only': '10px 0 15px -3px rgba(0, 0, 0, 0.1), 10px 0 6px -2px rgba(0, 0, 0, 0.05)',
+        'center-only': '0 0 45px -8px rgba(0, 0, 0, 0.3), 0 0 40px -8px rgba(0, 0, 0, 0.04)',
       }
       
     },

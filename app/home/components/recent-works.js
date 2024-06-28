@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const RecentWorks = () => {
   return (
-    <section className="py-14">
+    <section className="py-4">
       <div className="w-full px-4">
         <h1 className="px-4 pt-2 pb-1 font-montserrat font-bold text-lg text-center">RECENT WORKS</h1>
         <div className="flex justify-center flex-wrap px-4 py-2 gap-2">
