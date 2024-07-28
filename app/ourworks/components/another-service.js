@@ -10,7 +10,6 @@ const AnotherService = () => {
 
 
   const [selected, setSelected] = useState(selectPath ?? 5)
-  console.log(selectPath)
   
   const boxList = [
     { title: 'Short Video', bg: 'content-bg.svg'},
@@ -32,7 +31,16 @@ const AnotherService = () => {
                 ${selected == idx ? 'bg-black/10' : 'bg-black/70'} hover:cursor-pointer hover:bg-black/10`}
                 onClick={() => setSelected(idx)}
               >
-                <Link href={`/ourworks/${idx}`} className={`font-snowfun text-[9vw] text-center leading-10 px-10 ${selected == idx ? 'text-transparent' : 'text-white'}`}>
+                <Link 
+                  href={`/ourworks/${idx}`}
+                  onClick={(e) => {
+                    if(pathname.includes('ourworks')){
+                      e.preventDefault()
+                    }
+                  }} 
+                  className={`font-snowfun text-[9vw] text-center leading-10 px-10 
+                    ${selected == idx ? 'text-transparent' : 'text-white'}`}
+                >
                   {a.title}
                 </Link>
               </div>

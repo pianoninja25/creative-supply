@@ -10,47 +10,46 @@ import ContactUs from './_components/contact-us'
 
 const Home = () => {
   return (
-    <section className="landscape:h-[50rem]">
-      <div className="w-full h-[60vh] sm:h-screen bg-cover bg-center bg-no-repeat" style={{backgroundImage:`url(/home/banner/banner.jpg)` }}>
-        <div className="relative flex flex-col justify-center gap-4 w-full h-full pl-14 pt-20 bg-black/60">
-          <h1 className="font-bold text-[14vw] -tracking-morewidest leading-[12vw] text-stone-100">CREATIVE SUPPLY</h1>
-          <p className="font-snowfun text-[10vw] leading-[6vw] text-orange animate-bounce2">we create <br /> your needs</p>
-          <div className="absolute bottom-8 right-10 flex items-center gap-1 p-2 hover:cursor-pointer">
-            <Image src="/home/arrow-yellow.svg" alt="logo" width={200} height={200} className="w-4 h-auto animate-pulse" loading="lazy" />
-            <Image src="/home/arrow-yellow.svg" alt="logo" width={200} height={200} className="w-4 h-auto animate-pulse" loading="lazy" />
-            <Image src="/home/arrow-white.svg" alt="logo" width={200} height={200} className="w-6 h-auto animate-pulse" loading="lazy" />
+    <>
+      <section className="flex h-[28rem] sm:h-screen landscape:h-[50rem]">
+        <div className="w-full h-[60vh] sm:h-screen bg-cover bg-center bg-no-repeat md:bg-repeat-x bg-small">
+          <div className="relative flex flex-col sm:flex-row justify-center gap-4 w-full h-full pl-14 sm:pl-[14vw] pt-20 sm:pt-[18vw] bg-black/60">
+            <h1 className="font-bold text-[14vw] -tracking-morewidest leading-[12vw] text-stone-100 
+              sm:w-fit sm:text-[8vw] sm:leading-[7vw] ">
+              CREATIVE SUPPLY
+            </h1>
+            <p className="min-w-[14vw] h-fit sm:mt-[8vw] sm:-ml-[22vw] font-snowfun text-[10vw] sm:text-[4vw] leading-[6vw] sm:leading-[2vw] text-orange animate-bounce2">we create <br /> your needs</p>
+            {/* <div className="absolute bottom-8 right-10 flex items-center gap-1 p-2 hover:cursor-pointer">
+              <Image src="/home/arrow-yellow.svg" alt="logo" width={200} height={200} className="w-4 h-auto animate-pulse" loading="lazy" />
+              <Image src="/home/arrow-yellow.svg" alt="logo" width={200} height={200} className="w-4 h-auto animate-pulse" loading="lazy" />
+              <Image src="/home/arrow-white.svg" alt="logo" width={200} height={200} className="w-6 h-auto animate-pulse" loading="lazy" />
+            </div> */}
           </div>
+          
+          
         </div>
+        <div className="max-h-screen bg-cover sm:w-[45%]" style={{backgroundImage:`url(/home/bg2.jpg)`}} />
+      </section>
+
+      <section>
+        <Title />
+        <Hero />
         
-        {/* <div className="h-1/2 absolute left-14 top-48">
-          <h1 className="font-semibold text-[14vw] -tracking-morewidest leading-[3.5rem] text-stone-100">CREATIVE SUPPLY</h1>
-          <p className="w-40 font-snowfun text-5xl leading-8 py-10 text-orange">we create your needs</p>
+        {/* <div className="bg-contain mx-4 pb-10" style={{backgroundImage: `url('/home/pattern.svg')`}}>
+          <Capabilities />
+          <Clients />
+          <div className='relative -mx-4'>
+            <Speciality />
+            <img src="/home/pic/phone.png" alt="1" className="absolute -bottom-12 right-0 w-[26vw]"/>
 
-          <div className="absolute right-8 bottom-36 flex items-center p-2 rounded-xl border border-transparent hover:border-orange hover:cursor-pointer">
-            <Image src="/home/arrow-yellow.svg" alt="logo" width={200} height={200} className="h-4 w-4 animate-pulse" loading="lazy" />
-            <Image src="/home/arrow-yellow.svg" alt="logo" width={200} height={200} className="h-4 w-4 animate-pulse" loading="lazy" />
-            <Image src="/home/arrow-white.svg" alt="logo" width={200} height={200} className="h-6 w-6 animate-pulse" loading="lazy" />
           </div>
+          <RecentWorks />
+          <ContactUs />
+
+
         </div> */}
-         
-      </div>
-      <Title />
-      <Hero />
-      
-      <div className="bg-contain mx-4 pb-10" style={{backgroundImage: `url('/home/pattern.svg')`}}>
-        <Capabilities />
-        <Clients />
-        <div className='relative -mx-4'>
-          <Speciality />
-          <img src="/home/pic/phone.png" alt="1" className="absolute -bottom-12 right-0 w-[26vw]"/>
-
-        </div>
-        <RecentWorks />
-        <ContactUs />
-
-
-      </div>
-    </section>
+      </section>
+    </>
   )
 }
 

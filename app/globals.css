@@ -65,3 +65,13 @@ h1 {
 
 
 
+@media (max-width: 640px) {
+  .bg-small {
+    background-image: url('/home/banner/banner.jpg');
+  }
+}
+@media (min-width: 640px) {
+  .bg-small {
+    background-image: url('/home/banner/bg1.jpg');
+  }
+}
