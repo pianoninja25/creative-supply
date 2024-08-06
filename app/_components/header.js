@@ -37,7 +37,7 @@ const Header = () => {
       
       {/* LOGO */}
       <div className={`flex ${isHomePage ? 'justify-center p-6 ' : 'justify-start px-1 -pt-1'} w-full sm:justify-start sm:py-5 sm:px-12 lg:py-7 sm:z-[100]`}>
-        <Link href="/" className='w-[18vw] h-auto xs:w-[14vw] sm:w-[4rem] lg:w-[5rem] rounded-full bg-gradient-to-bl from-black to-[#4A4A4A] sm:border-2 sm:border-slate-600'>
+        <Link href="/" className='w-[18vw] h-auto xs:w-[14vw] sm:w-[4rem] lg:w-[5rem] rounded-full bg-gradient-to-bl from-black to-[#4A4A4A] sm:border-2 sm:border-neutral-600'>
           <Image className="w-auto h-auto p-[4.5vw] xs:p-4 sm:p-4 lg:p-5 transform transition-transform duration-500 hover:scale-110 hover:rotate-12" src="/logo.png" alt="logo" width={100} height={100} priority />
         </Link>
       </div>
@@ -60,8 +60,8 @@ const Header = () => {
 
         {/* TEXT */}
         <nav
-          className={`absolute top-6 right-8 py-4 flex-col w-full max-w-36 rounded-md shadow-md bg-white/40 backdrop-blur-sm z-50
-          sm:flex-row sm:max-w-xs sm:justify-center sm:left-28 sm:py-0 sm:rounded-full sm:border-4 sm:border-slate-600  
+          className={`absolute top-6 right-8 py-4 flex-col w-full max-w-36 rounded-md shadow-md bg-white/30 backdrop-blur-md z-50
+          sm:flex-row sm:max-w-xs sm:justify-center sm:left-28 sm:py-0 sm:rounded-full sm:border-4 sm:border-neutral-500  
           lg:p-1 lg:max-w-sm lg:top-14   
           ${open ? 'flex' : 'hidden sm:flex'}`}
         >
@@ -74,7 +74,7 @@ const Header = () => {
             <Link
               key={title}
               href={url}
-              className={`text-sm px-6 p-1 font-montserrat font-semibold rounded-md text-white hover:text-orange hover:scale-110 
+              className={`text-sm px-6 p-1 font-montserrat font-semibold rounded-md drop-shadow-md text-white hover:text-orange hover:scale-110 
                     ${title=='Home' ? ' sm:hidden' :''}
                     ${url==pathname ? '!text-black' :''}`
                   }
