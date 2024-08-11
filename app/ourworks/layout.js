@@ -5,7 +5,7 @@ import Youtube from "./components/youtube"
 
 export default function RootLayout({ children }) {
   return (
-    <main className="">
+    <main className="md:mx-28">
       
       <section className="flex h-[32rem] sm:h-screen landscape:h-[50rem] bg-black">
         <div className="flex items-center justify-center h-full w-full bg-cover bg-center bg-no-repeat md:bg-repeat-x text-[2em]" style={{backgroundImage:`url(/our-works/banner.jpg)`}}>

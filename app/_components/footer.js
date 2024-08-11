@@ -3,7 +3,7 @@ import { FaInstagram, FaTiktok, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className='flex gap-4 justify-center w-full p-4 rounded-t-2xl bg-gradient-to-tr from-[#9E6867] to-[#734C95]'>
+    <div className='flex gap-4 justify-center w-full p-4 rounded-t-3xl bg-gradient-to-tr from-[#9E6867] to-[#734C95]'>
       <FaTiktok size={22} color='white'/>
       <FaInstagram size={22} color='white'/>
       <FaLinkedin size={22} color='white'/>
