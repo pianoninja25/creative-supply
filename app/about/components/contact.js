@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-2 p-8 m-8 shadow-center-only rounded-[2.2rem]'>
+    <div className='flex flex-col items-center justify-center gap-2 p-8 m-8 shadow-center-only rounded-[2.2rem] lg:hidden'>
       <div className='relative'>
         <h3 className='w-52 font-montserrat text-xl font-bold px-6 py-2 rounded-full text-white bg-orange'>Contact Us</h3>
         <img src="/home/pic/avatar.png" alt="avatar" className="absolute bottom-0 -right-4 w-[18vw]"/>
