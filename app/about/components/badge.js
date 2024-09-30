@@ -79,8 +79,8 @@ const Badge = () => {
       {isDesktop && (
         <div className="w-full h-fit my-10">
           <div className="flex justify-center items-end p-12 text-5xl font-montserrat font-bold">
-            <h2>CREATIVE <br />SUPPLY</h2>
-            <span>Img</span>
+            <h2 className="w-52">CREATIVE <br />SUPPLY</h2>
+            <Image className="w-10 h-10" src="/logo.png" alt="logo" width={100} height={100} priority />
           </div>
 
           <div className="flex justify-center w-full px-20">
@@ -122,23 +122,42 @@ const Badge = () => {
 
               <div className='w-[90%] rounded-[2rem] pb-20 shadow-center-only bg-white'>
                 <h1 className="font-bold text-center text-[2.5rem] p-[2vw] py-10">Our <span className="text-orange">Management</span></h1>
-                <div className='flex flex-wrap justify-around gap-4 mt-20 bg-slate-100'>
-                  <div className="relative">
-                    <img src="/services/hero2.png" alt="1" className="w-[14rem] grayscale brightness-75 contrast-150 z-10"/>
-                    <div className="absolute bottom-0 right-0 -z-10 h-52 w-32 rounded-2xl shadow-right-only bg-orange">
+                <div className='flex flex-wrap justify-center gap-40 pr-10 mt-12 mr-10'>
+                  <div className="relative w-48 h-40">
+                    <div className="absolute right-4 w-32 h-full rounded-2xl shadow-right-only bg-orange" />
+                    <img src="/services/hero2.png" alt="1" className="absolute -top-16 w-[10rem] grayscale brightness-75 contrast-150 z-10"/>
+                    <div className="w-32 absolute bottom-2 -right-32">
+                      <h3 className='mb-8 font-snowfun text-5xl text-orange z-50'>CEO</h3>
+                      <p className='font-montserrat text-lg leading-tight'>Gilang <br />Ramadhan</p>
+                    </div>
+                  </div>
+                  <div className="relative w-48 h-40">
+                    <div className="absolute right-4 w-32 h-full rounded-2xl shadow-right-only bg-orange" />
+                    <img src="/services/hero2.png" alt="1" className="absolute -top-16 w-[10rem] grayscale brightness-75 contrast-150 z-10"/>
+                    <div className="w-32 absolute bottom-2 -right-32">
+                      <h3 className='mb-8 font-snowfun text-5xl text-orange z-50'>COO</h3>
+                      <p className='font-montserrat text-lg leading-tight'>Fahreza <br />Praditya</p>
+                    </div>
+                  </div>
+                </div>
 
+                <div className='flex flex-wrap justify-center gap-40 pr-10 mt-20 mr-10'>
+                  <div className="relative w-48 h-40">
+                    <div className="absolute right-4 w-32 h-full rounded-2xl shadow-right-only bg-orange" />
+                    <img src="/services/hero2.png" alt="1" className="absolute -top-16 w-[10rem] grayscale brightness-75 contrast-150 z-10"/>
+                    <div className="w-32 absolute bottom-2 -right-32">
+                      <h3 className='mb-8 font-snowfun text-5xl text-orange z-50'>CFO</h3>
+                      <p className='font-montserrat text-lg leading-tight'>Aditya <br />Nazikra</p>
+                    </div>
                   </div>
+                  <div className="relative w-48 h-40">
+                    <div className="absolute right-4 w-32 h-full rounded-2xl shadow-right-only bg-orange" />
+                    <img src="/services/hero2.png" alt="1" className="absolute -top-16 w-[10rem] grayscale brightness-75 contrast-150 z-10"/>
+                    <div className="w-32 absolute bottom-2 -right-32">
+                      <h3 className='mb-8 font-snowfun text-5xl text-orange z-50'>CMO</h3>
+                      <p className='font-montserrat text-lg leading-tight'>Fatchur <br />Rahman</p>
+                    </div>
                   </div>
-                  {/* <div className="relative h-52 w-40 shadow-right-only rounded-2xl ml-6 bg-red-400">
-                    <h3 className='font-snowfun text-5xl text-center text-white absolute z-50 top-4 right-8'>CEO</h3>
-                    <img src="/services/hero2.png" alt="1" className="absolute -bottom-2 right-4 w-[80rem] grayscale brightness-75 contrast-150 z-10"/>
-                    <p className='absolute -bottom-8 -left-4 font-montserrat text-lg'>Gilang Ramadhan</p>
-                  </div>
-                  <div className="relative h-60 w-60 shadow-right-only rounded-2xl ml-6 bg-orange">
-                    <h3 className='font-snowfun text-5xl text-center text-white absolute z-50 top-4 right-8'>CEO</h3>
-                    <img src="/services/hero2.png" alt="1" className="absolute -bottom-1 right-7 w-[60vw] grayscale brightness-75 contrast-150 z-10"/>
-                    <p className='absolute -bottom-8 -left-4 font-montserrat text-lg'>Gilang Ramadhan</p>
-                  </div>                   */}
                 </div>
                 
 
